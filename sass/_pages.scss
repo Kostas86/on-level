@@ -1,6 +1,50 @@
-.header_blocktext{
-   
-    .logo_text_top{
-        color: #14A31A;
+.header_logo{
+    height: 65px;
+    width: 195px;
+    .header_blocktext{
+        .logo_text_top{
+            display: block;
+            color: #14A31A;
+            font-size: 14px;
+        }
+        .logo_text_bottom{
+            display: block;
+            color: #252525;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+}
+.fa-home{
+    color: #14A31A;
+    font-size: 20px;
+    }
+.fa-phone-alt{
+    margin-right: 10px;
+    color: #14A31A;
+    font-size: 24px; 
+}    
+.header_nav{
+    .nav li{
+     margin-right: 20px;
+     color: #252525;
+     font-size: 16px;
+    }
+    .nav_link{
+        text-decoration: none;
+        &:hover{
+        text-decoration: none;
+        border: 1px solid #14A31A;
+        border-radius: 20px;
+        padding: 5px 15px;
+        }
+    }
+}
+.header_tel{
+    font-size: 18px;
+    color: #252525;
+    span{
+        font-size: 24px;
+        font-weight: 700;
     }
 }

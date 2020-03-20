@@ -11,9 +11,65 @@ button, button:active, button:hover, button:visited {
   outline: none;
 }
 
-/* line 3, ../sass/_pages.scss */
-.header_blocktext .logo_text_top {
+/* line 1, ../sass/_pages.scss */
+.header_logo {
+  height: 65px;
+  width: 195px;
+}
+/* line 5, ../sass/_pages.scss */
+.header_logo .header_blocktext .logo_text_top {
+  display: block;
   color: #14A31A;
+  font-size: 14px;
+}
+/* line 10, ../sass/_pages.scss */
+.header_logo .header_blocktext .logo_text_bottom {
+  display: block;
+  color: #252525;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* line 18, ../sass/_pages.scss */
+.fa-home {
+  color: #14A31A;
+  font-size: 20px;
+}
+
+/* line 22, ../sass/_pages.scss */
+.fa-phone-alt {
+  margin-right: 10px;
+  color: #14A31A;
+  font-size: 24px;
+}
+
+/* line 28, ../sass/_pages.scss */
+.header_nav .nav li {
+  margin-right: 20px;
+  color: #252525;
+  font-size: 16px;
+}
+/* line 33, ../sass/_pages.scss */
+.header_nav .nav_link {
+  text-decoration: none;
+}
+/* line 35, ../sass/_pages.scss */
+.header_nav .nav_link:hover {
+  text-decoration: none;
+  border: 1px solid #14A31A;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+/* line 43, ../sass/_pages.scss */
+.header_tel {
+  font-size: 18px;
+  color: #252525;
+}
+/* line 46, ../sass/_pages.scss */
+.header_tel span {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 /* line 5, ../sass/style.scss */
