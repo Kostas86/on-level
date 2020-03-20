@@ -11,6 +11,11 @@ button, button:active, button:hover, button:visited {
   outline: none;
 }
 
+/* line 3, ../sass/_pages.scss */
+.header_blocktext .logo_text_top {
+  color: #14A31A;
+}
+
 /* line 5, ../sass/style.scss */
 body {
   height: 100%;
