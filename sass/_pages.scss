@@ -1,19 +1,7 @@
 .header_logo{
     height: 65px;
     width: 195px;
-    .header_blocktext{
-        .logo_text_top{
-            display: block;
-            color: #14A31A;
-            font-size: 14px;
-        }
-        .logo_text_bottom{
-            display: block;
-            color: #252525;
-            font-size: 24px;
-            font-weight: 700;
-        }
-    }
+    
 }
 .fa-home{
     color: #14A31A;
@@ -26,25 +14,57 @@
 }    
 .header_nav{
     .nav li{
-     margin-right: 20px;
-     color: #252525;
      font-size: 16px;
     }
     .nav_link{
         text-decoration: none;
+        color: #252525;
+        padding: 5px 10px;
         &:hover{
         text-decoration: none;
         border: 1px solid #14A31A;
         border-radius: 20px;
-        padding: 5px 15px;
         }
     }
 }
 .header_tel{
+    text-align: right;
     font-size: 18px;
     color: #252525;
     span{
         font-size: 24px;
         font-weight: 700;
+    }
+}
+.service_menu{
+    height: 182px;
+    background-color: #EAEAEA;
+}
+.carousel-item{
+
+    .carousel-item_wrap{
+        margin: 0 auto;
+        padding: 15px;
+        height: 93px;
+        width: 292px;
+        border: 1px solid #14A31A;
+        border-radius: 46.5px;
+        position: relative;
+        color: #252525;
+        font-size: 20px;
+        font-weight: bold;
+        img{
+        display: inline-block;
+        height: 56.4px;
+        width: 66.4px;
+        }
+        span{
+        display: inline-block;
+        }
+        &:hover{
+            background-color: #252525;
+            color: white;
+            border: 1px solid #252525;
+        }
     }
 }
